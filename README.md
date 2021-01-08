@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [201 Reading 01](ReadingNotes01.md)
+1. [201 Reading 01](Class01.md)
 2. [201 Reading 02](ReadingNotes02.md)
 3. [201 Reading O3](ReadingNotes03.md)
 4. [201 Reading 04](ReadingNotes04.md)
