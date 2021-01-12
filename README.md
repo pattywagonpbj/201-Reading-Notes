@@ -1,10 +1,12 @@
-# Welcome to Patrick's Class 201 Notes
+# Welcome to Patrick's Class Reading Notes
+
+## 201 Notes
 
 ## Table of Contents
 
 1. [201 Reading 01](Class-01.md)
-2. [201 Reading 02](ReadingNotes02.md)
-3. [201 Reading O3](ReadingNotes03.md)
+2. [201 Reading 02](Class-02.md)
+3. [201 Reading O3](Class-03.md)
 4. [201 Reading 04](ReadingNotes04.md)
 5. [201 Reading 05](ReadingNotes05.md)
 6. [201 Reading 06](ReadingNotes06.md)
