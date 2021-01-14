@@ -32,4 +32,4 @@
 -You can change the size of the font.
 -You can change the text to bold or even italicize it. 
 -You can change the text to upper case or lower case and underline or strike out words in a sentence. 
--You can align the text in your webpage to be in a specific spot.
+-You can align the text in your webpage to be in a specific spot. 
