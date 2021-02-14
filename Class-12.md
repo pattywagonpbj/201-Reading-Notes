@@ -16,7 +16,7 @@
 
 - Conclusion
 
-## Basic Usage (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage)
+## Basic Usage (Ref: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage)
 
 - At first sight a canvas looks like the img element, with the only clear difference being that it doesn't have the src and alt attributes. Indeed, the canvas element has only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the canvas will initially be 300 pixels wide and 150 pixels high. The element can be sized arbitrarily by CSS, but during rendering the image is scaled to fit its layout size: if the CSS sizing doesn't respect the ratio of the initial canvas, it will appear distorted.
 
@@ -24,8 +24,24 @@
 
 Providing fallback content is very straightforward: just insert the alternate content inside the canvas element. Browsers that don't support canvas will ignore the container and render the fallback content inside it. Browsers that do support canvas will ignore the content inside the container, and just render the canvas normally.
  
-## Domain names and hosting
+## Drawing shapes with canvas (Ref: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
 
-- Domain names (html bk, pg 487): Your domain name is your web address. 
+- What are the types of shapes?
+- The grid: Drawing rectangles, Drawing paths, Drawing a triangle, Lines, etc.
 
-- Web Hosting (html bk, pg 487): So that other people can see your site, you will need to upload it to a web server. 
+- When drawing out these shapes you will be using JS to draw them out. 
+
+### Applying styles and colors (Ref: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors)
+
+- color is a string representing a CSS color, a gradient object, or a pattern object. We'll look at gradient and pattern objects later. By default, the stroke and fill color are set to black (CSS color value #000000). 
+
+- A fillStyle example: We once again use two for loops to draw a grid of rectangles, each in a different color. The resulting image should look something like the screenshot. There is nothing too spectacular happening here. We use the two variables i and j to generate a unique RGB color for each square, and only modify the red and green values. The blue channel has a fixed value. By modifying the channels, you can generate all kinds of palettes. By increasing the steps, you can achieve something that looks like the color palettes Photoshop uses.
+
+- A strokeStyle example: This example is similar to the one above, but uses the strokeStyle property to change the colors of the shapes' outlines. We use the arc() method to draw circles instead of squares.
+
+### Drawing Text (Ref: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
+
+- What are the different ways to add text:
+- A fillText, A strokeText, Styling text, A textBaseline.
+
+- When Drawing a text, you would go through JS.
